@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Homework 5</title>
+    <title>Homework 7</title>
   </head>
   <body>
     <div class="weather-app">
@@ -26,16 +26,18 @@
           <div>
             <h1 class="current-city" id="current-city">Paris</h1>
             <p class="current-details">
-              <span id="current-date">Monday 14:28</span>
-              , moderate rain <br />
+              <span id="current-date"></span><span id="description"></span>
+              <br />
               Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
             </p>
           </div>
           <div class="current-temperature">
-            <span class="current-temperature-icon">☀️</span
-            ><span class="current-temperature-value" id="current-temperature"
-              >24</span
-            ><span class="current-temperature-unit">°C</span>
+            <div class="current-temperature-icon">☀️</div>
+            <div
+              class="current-temperature-value"
+              id="current-temperature"
+            ></div>
+            <div class="current-temperature-unit">°C</div>
           </div>
         </div>
       </main>
